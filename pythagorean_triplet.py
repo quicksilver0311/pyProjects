@@ -1,4 +1,7 @@
-'''Time complexity: O(n*n)'''
+'''
+Find if a given list/array of numbers includes 1 or more pythagorean triplets.
+Time complexity: O(n*n)
+'''
 
 def containstriplet(nums):
 	for i in range(len(nums)):

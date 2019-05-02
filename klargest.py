@@ -1,3 +1,7 @@
+'''
+Find the k largest numbers in a given array of numbers
+Time Complexity: O(nlogn)
+'''
 def klargest(k, arr):
 	arr.sort()
 	arr=arr[::-1]
